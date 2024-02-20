@@ -164,12 +164,9 @@
 }
 
 .content-section_list {
-  grid-row: 2 / 3;
-}
-
-.content-section_list {
   display: flex;
   flex-direction: column;
+  grid-row: 2 / 3;
   gap: 20px;
   font-size: var(--default-font-size);
 }
