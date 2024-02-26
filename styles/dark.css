@@ -1,4 +1,5 @@
 .page.theme_dark {
+  --display-decor: block;
   --page-bg-color: #000028;
   --title-color: #db00ff;
   --accent-color: #ff0070;
@@ -9,5 +10,6 @@
   --section-subtitle-color: #000028;
   --main-text-color: #f1b2ce;
   --footer-shadow: #ff0070;
-  background-image: url(../images/cover-image-dark.png);
+  --title-shadow: #ff0070;
+  background-image: var(--background-image-dark);
 }
