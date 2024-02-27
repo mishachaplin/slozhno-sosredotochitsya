@@ -2,8 +2,7 @@
   --padding-page: 10px;
   --default-font-size: 18px;
   --default-line-height: 1.3em;
-  --background-image-dark: url(../images/cover-image-dark.png);
-  --background-image-light: url(../images/cover-image-light.png);
+  --background-image: url(../images/cover-image-dark.png);
   --display-decor: block;
   --page-bg-color: #000028;
   --title-color: #db00ff;

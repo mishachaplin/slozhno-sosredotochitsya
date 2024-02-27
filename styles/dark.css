@@ -1,4 +1,5 @@
 .page.theme_dark {
+  --background-image: url(../images/cover-image-dark.png);
   --display-decor: block;
   --page-bg-color: #000028;
   --title-color: #db00ff;
@@ -11,5 +12,4 @@
   --main-text-color: #f1b2ce;
   --footer-shadow: #ff0070;
   --title-shadow: #ff0070;
-  background-image: var(--background-image-dark);
 }

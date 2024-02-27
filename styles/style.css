@@ -1,6 +1,6 @@
 .page {
   background-color: var(--page-bg-color);
-  background-image: var(--background-image-dark);
+  background-image: var(--background-image);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -66,12 +66,12 @@
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
-  text-shadow: 4px 4px 0 var(--title-shadow);
 }
 
 .header__title {
   grid-row-start: 2;
   grid-row-end: 3;
+  text-shadow: 4px 4px 0 var(--title-shadow);
 }
 
 .title-decor {
@@ -274,9 +274,9 @@
     inline-size: 364px;
   }
 
-  .content {
+  /* .content {
     padding: 0 var(--padding-page);
-  }
+  } */
 
   .content-section {
     margin-block-start: 80px;
